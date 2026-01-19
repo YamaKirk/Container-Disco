@@ -1,5 +1,5 @@
 # Use a specific version for reproducibility
-FROM alpine:3.19
+FROM nginx:latest
 
 # Add metadata
 LABEL maintainer="your-email@example.com"
