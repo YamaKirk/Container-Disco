@@ -1,0 +1,42 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# CI/CD files
+.github
+
+# Documentation
+README.md
+LICENSE
+*.md
+
+# Development files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets and credentials (NEVER include these!)
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+secrets/
+credentials/
+
+# OS files
+.DS_Store
+Thumbs.db

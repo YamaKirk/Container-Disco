@@ -1,0 +1,18 @@
+# Ignore workflow artifacts
+trivy-results.sarif
+trivy-results.json
+trivy-dockerfile-results.sarif
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore temporary files
+*.tmp
+*.log
